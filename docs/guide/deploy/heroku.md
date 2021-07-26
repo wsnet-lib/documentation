@@ -10,21 +10,37 @@ Other solutions are also available, e.g. AWS, Google Cloud, Digital Ocean, self 
 
 ---
 
-1. Go on [Heroku](https://signup.heroku.com) and follow the procedure to create an account.
+### Create a new Account
+Go on [Heroku](https://signup.heroku.com) and follow the procedure to create an account.
 
-2. Once you are logged in, click on _Create an app_
+### Create a new App
+Once you are logged in, click on _Create an app_
 
 ![Heroku Create App](../../../static/img/heroku-create-app.png)
 
-3. Type your app name and select a region, then click the button _Create app_.
+Type your app name and select a region, then click the button _Create app_.
 
 ![Heroku App Name](../../../static/img/heroku-app-name.png)
 
-4. Go to the _Deploy_ tab and follow the procedure to upload the server code with the Heroku CLI and Git. If you haven't got _Git_ already, please install it first from this [link](https://git-scm.com/downloads).
+
+### Deploy From your GitHub Repository
+Select GitHub and proceed to login
+![Heroku Deploy Github 1](../../../static/img/heroku_deploy_github_1.png)
+
+Select the repository where you uploaded the server
+![Heroku Deploy Github 2](../../../static/img/heroku_deploy_github_2.png)
+
+Click Deploy Branch
+![Heroku Deploy Github 3](../../../static/img/heroku_deploy_github_3.png)
+
+
+### Deploy From Heroku CLI
+Go to the _Deploy_ tab and follow the procedure to upload the server code with the Heroku CLI and Git. If you haven't got _Git_ already, please install it first from this [link](https://git-scm.com/downloads).
 
 ![Heroku Deploy](../../../static/img/heroku-deploy.png)
 
-5. If everything went smoothly, your server will now be running on the address `<your-app-name>.herokuapp.com:80`, which will be the address to connect from within the game (instead of `localhost:8080`). 
+### Test your App
+If everything went smoothly, your server will now be running on the address `<your-app-name>.herokuapp.com:80`, which will be the address to connect from within the game (instead of `localhost:8080`). 
 
 ---
 
