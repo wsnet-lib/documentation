@@ -2,12 +2,12 @@ module.exports = {
   title: 'WSNET',
   tagline: 'Create multiplayer games through Websockets with GameMaker Studio and Unity',
   url: 'https://wsnet-lib.github.io',
-  baseUrl: '/',
+  baseUrl: '/documentation/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.svg',
   organizationName: 'wsnet-lib',
-  projectName: 'wsnet-lib.github.io',
+  projectName: 'documentation',
   themeConfig: {
     navbar: {
       title: 'WSNET',
