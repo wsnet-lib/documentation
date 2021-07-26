@@ -7,7 +7,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.svg',
   organizationName: 'wsnet-lib',
-  projectName: 'documentation',
+  projectName: 'wsnet-lib.github.io',
   themeConfig: {
     navbar: {
       title: 'WSNET',
