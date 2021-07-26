@@ -37,7 +37,7 @@ module.exports = {
 
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/wsnet-lib/gms-client/edit/master/docs',
+            'https://github.com/wsnet-lib/documentation',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
