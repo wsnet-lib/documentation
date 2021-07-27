@@ -24,10 +24,13 @@ Type your app name and select a region, then click the button _Create app_.
 
 
 ### Deploy From your GitHub Repository
-Select GitHub and proceed to login
+Select GitHub as Deployment method and proceed to login
 ![Heroku Deploy Github 1](../../../static/img/heroku_deploy_github_1.png)
 
-Select the repository where you uploaded the server
+Fork our [server](http://github.com/wsnet-lib/server) project<br/>
+![Fork Server](../../../static/img/server_fork.png)
+
+Select the repository you just forked
 ![Heroku Deploy Github 2](../../../static/img/heroku_deploy_github_2.png)
 
 Click Deploy Branch

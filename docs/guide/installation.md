@@ -22,7 +22,7 @@ sidebar_label: Installation
 
 ---
 
-### Install the server
+### Install the server (Local)
 
 1. Download the server from https://github.com/wsnet-lib/server and unzip it.
 
